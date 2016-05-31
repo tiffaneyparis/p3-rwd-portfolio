@@ -1,7 +1,7 @@
 /* Card Based Layout - Base styles */
 
 body {
-	background: hsl(0, 0%, 10%);
+	background: hsl(0, 0%, 0%);
     
 }
 
@@ -11,13 +11,14 @@ body {
 }
 
 .site-title {
-	color: white;
+	color: cornsilk;
 }
 
 .card {
-  
-	background: cornsilk;
+    padding-left: 1em;
+	background: black;
 	margin-bottom: 1em;	
+    
 }
 
 .card a {
@@ -30,17 +31,23 @@ body {
 }
 
 .card-content {
+    background: black;
 	padding: 1em;
+    text-align: center;
 }
 
 .card-content h2 {
 	margin-top: 0;
 	margin-bottom: .5em;
 	font-weight: normal;
+    text-align: center;
+     color: cornsilk;
+    
 }
 
 .card-content p {
-	font-size: 95%;
+	font-size: 85%;
+    color: cornsilk;
 }
 
 /* Flexbox stuff */
