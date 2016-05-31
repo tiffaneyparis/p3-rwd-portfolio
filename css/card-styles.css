@@ -1,11 +1,12 @@
 /* Card Based Layout - Base styles */
 
 body {
-	background: hsl(0, 0%, 90%);
+	background: hsl(0, 0%, 10%);
+    
 }
 
 .masthead {
-	background: hsl(0, 0%, 20%);
+	background: hsl(0, 0%, 40%);
 }
 
 .site-title {
@@ -13,8 +14,9 @@ body {
 }
 
 .card {
-	background: white;
-	margin-bottom: 2em;	
+  
+	background: cornsilk;
+	margin-bottom: 1em;	
 }
 
 .card a {
@@ -27,7 +29,7 @@ body {
 }
 
 .card-content {
-	padding: 1.4em;
+	padding: 1em;
 }
 
 .card-content h2 {
