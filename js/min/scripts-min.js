@@ -1,9 +1,7 @@
-$(".cards").lightGallery({selector:"a"});
+$(".cards").lightGallery({selector: "a"});
 
-$(document).ready(function() {
+$(document).ready(function () {
         $("#lightgallery").lightGallery(); 
-    
-    
     
     });
 
@@ -16,6 +14,6 @@ $('#custom-easing').lightGallery({
     mode: 'lg-fade'
 });
 
-
-    
-    
+var $customEvents = $('#custom-events');
+$customEvents.lightGallery();
+ 
