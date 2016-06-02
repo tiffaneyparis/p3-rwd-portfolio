@@ -8,7 +8,14 @@ IMPORTS
 YOUR STYLES
 *******************/
 
+.icon {
+    height: 22px;
+    width: 22px;
+}
 
+footer {
+    float: right;
+}
 
 /********************
 MEDIA QUERIES

@@ -1,17 +1,21 @@
 /* Card Based Layout - Base styles */
 
 body {
-	background: hsl(0, 0%, 0%);
-    
+	background: black;
 }
 
 
 .masthead {
-	background: hsl(0, 0%, 40%);
+	background: maroon;
+
+    
 }
 
 .site-title {
-	color: cornsilk;
+	color: white;
+    text-align: right;
+    padding: 1%;
+        
 }
 
 .card {
@@ -27,27 +31,29 @@ body {
 }
 
 .card a:hover {
-	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    box-shadow: 10px 10px grey;
+	
 }
 
 .card-content {
     background: black;
-	padding: 1em;
-    text-align: center;
+	padding: .4em;
+    text-align: left;
 }
 
 .card-content h2 {
 	margin-top: 0;
-	margin-bottom: .5em;
+	margin-bottom: .3em;
 	font-weight: normal;
-    text-align: center;
-     color: cornsilk;
+    text-align: left;
+     color: white;
+    
     
 }
 
 .card-content p {
 	font-size: 85%;
-    color: cornsilk;
+    color: white;
 }
 
 /* Flexbox stuff */
