@@ -7,7 +7,8 @@ body {
 
 .masthead {
 	background: maroon;
-
+font-family: 'Dancing Script', cursive;
+    font-size: 150%
     
 }
 
@@ -22,6 +23,7 @@ body {
     padding-left: 1em;
 	background: black;
 	margin-bottom: 1em;	
+    font-family: 'Roboto Condensed', sans-serif;
     
 }
 
@@ -30,10 +32,7 @@ body {
 	text-decoration: none;
 }
 
-.card a:hover {
-    box-shadow: 10px 10px grey;
-	
-}
+
 
 .card-content {
     background: black;
@@ -41,7 +40,7 @@ body {
     text-align: left;
 }
 
-.card-content h2 {
+.card-content  {
 	margin-top: 0;
 	margin-bottom: .3em;
 	font-weight: normal;
@@ -52,7 +51,7 @@ body {
 }
 
 .card-content p {
-	font-size: 85%;
+	font-size: 90%;
     color: white;
 }
 

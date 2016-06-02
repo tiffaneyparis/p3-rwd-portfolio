@@ -11,12 +11,29 @@ YOUR STYLES
 .icon {
     height: 22px;
     width: 22px;
+    display: inline-block;
+    text-decoration: none;
+
 }
 
 footer {
     float: right;
+    align: inline-block;
 }
 
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    display: inline-block;
+}
+
+span {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
 /********************
 MEDIA QUERIES
 *******************/
