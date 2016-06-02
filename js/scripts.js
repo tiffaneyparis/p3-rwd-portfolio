@@ -5,3 +5,5 @@
 $(".cards").lightGallery({
 	selector: 'a'
 });
+
+$('h1').fadeOut('fast').fadeIn('slow');
